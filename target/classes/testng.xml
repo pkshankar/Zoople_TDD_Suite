@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zoopla_Automation_Framework">
+	<!-- <listeners> <listener class-name="com.enrich.qa.listeners.ExtentReporterListener" 
+		/> <listener class-name="com.enrich.qa.listeners.IAnnotationTransformerListener" 
+		/> <listener class-name="com.enrich.qa.listeners.TestListener" /> </listeners>
+ -->	<test name="Zoopla_Automation_Test">
+	<!-- <parameter name = "browserName" value="INTERNET EXPLORER"/> -->
+	<!-- <parameter name = "browserName" value="INTERNET EXPLORER"/> -->
+		<classes>
+			<class name="com.zoopla.qa.test.PropertySearchResultPageTest" />
+			<class name="com.zoopla.qa.test.PropertyDetailPageTest" />
+			<class name="com.zoopla.qa.test.AgentPageTest" />
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
