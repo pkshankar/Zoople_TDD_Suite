@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Zoopla_Automation_Framework" duration-ms="290661" started-at="2019-09-21T07:06:06Z" finished-at="2019-09-21T07:10:57Z">
+    <groups>
+    </groups>
+    <test name="Zoopla_Automation_Test" duration-ms="290661" started-at="2019-09-21T07:06:06Z" finished-at="2019-09-21T07:10:57Z">
+      <class name="com.zoopla.qa.test.AgentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="setUp" is-config="true" duration-ms="36070" started-at="2019-09-21T12:37:24Z" finished-at="2019-09-21T12:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAgentNameIsCorrect()[pri:1, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="validateAgentNameIsCorrect" duration-ms="7849" started-at="2019-09-21T12:38:00Z" description="VALIDATE AGENT NAME" finished-at="2019-09-21T12:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAgentNameIsCorrect -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="teatDown" is-config="true" duration-ms="4250" started-at="2019-09-21T12:38:08Z" finished-at="2019-09-21T12:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="setUp" is-config="true" duration-ms="40562" started-at="2019-09-21T12:39:24Z" finished-at="2019-09-21T12:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAgentPhoneNoIsCorrect()[pri:2, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="validateAgentPhoneNoIsCorrect" duration-ms="10934" started-at="2019-09-21T12:40:04Z" description="VALIDATE AGENT PHONE NO." finished-at="2019-09-21T12:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAgentPhoneNoIsCorrect -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.zoopla.qa.test.AgentPageTest@68d6972f]" name="teatDown" is-config="true" duration-ms="2677" started-at="2019-09-21T12:40:15Z" finished-at="2019-09-21T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- com.zoopla.qa.test.AgentPageTest -->
+      <class name="com.zoopla.qa.test.PropertySearchResultPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="setUp" is-config="true" duration-ms="28250" started-at="2019-09-21T12:36:06Z" finished-at="2019-09-21T12:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getPropertyPriceListDescendingOrderTest()[pri:1, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="getPropertyPriceListDescendingOrderTest" duration-ms="3232" started-at="2019-09-21T12:36:35Z" description="PRINT PROPERTIES PRICE IN DESCENDING ORDER" finished-at="2019-09-21T12:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPropertyPriceListDescendingOrderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="tearDown" is-config="true" duration-ms="3981" started-at="2019-09-21T12:36:38Z" finished-at="2019-09-21T12:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="setUp" is-config="true" duration-ms="19776" started-at="2019-09-21T12:38:12Z" finished-at="2019-09-21T12:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectFifthPropertyTest()[pri:2, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="selectFifthPropertyTest" duration-ms="13897" started-at="2019-09-21T12:38:32Z" description="SELECT FIFTH PROPERTY IN THE LIST" finished-at="2019-09-21T12:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFifthPropertyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.qa.test.PropertySearchResultPageTest@2ed3b1f5]" name="tearDown" is-config="true" duration-ms="1984" started-at="2019-09-21T12:38:46Z" finished-at="2019-09-21T12:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.qa.test.PropertySearchResultPageTest -->
+      <class name="com.zoopla.qa.test.PropertyDetailPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="setUp" is-config="true" duration-ms="39106" started-at="2019-09-21T12:36:42Z" finished-at="2019-09-21T12:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isAgentLogoDisplayed()[pri:1, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="isAgentLogoDisplayed" duration-ms="164" started-at="2019-09-21T12:37:21Z" description="VALIDATE THAT AGENT LOGO IS DISPLAYED" finished-at="2019-09-21T12:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAgentLogoDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="tearDown" is-config="true" duration-ms="2437" started-at="2019-09-21T12:37:22Z" finished-at="2019-09-21T12:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="setUp" is-config="true" duration-ms="32969" started-at="2019-09-21T12:38:48Z" finished-at="2019-09-21T12:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isAgentNameDisplayed()[pri:2, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="isAgentNameDisplayed" duration-ms="95" started-at="2019-09-21T12:39:21Z" description="VALIDATE THAT AGENT NAME IS DISPLAYED" finished-at="2019-09-21T12:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAgentNameDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="tearDown" is-config="true" duration-ms="2560" started-at="2019-09-21T12:39:21Z" finished-at="2019-09-21T12:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="setUp" is-config="true" duration-ms="36632" started-at="2019-09-21T12:40:18Z" finished-at="2019-09-21T12:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isAgentPhoneNoDisplayed()[pri:3, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="isAgentPhoneNoDisplayed" duration-ms="91" started-at="2019-09-21T12:40:54Z" description="VALIDATE THAT AGENT PHONE NO. IS DISPLAYED" finished-at="2019-09-21T12:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAgentPhoneNoDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zoopla.qa.test.PropertyDetailPageTest@63648ee9]" name="tearDown" is-config="true" duration-ms="2437" started-at="2019-09-21T12:40:55Z" finished-at="2019-09-21T12:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zoopla.qa.test.PropertyDetailPageTest -->
+    </test> <!-- Zoopla_Automation_Test -->
+  </suite> <!-- Zoopla_Automation_Framework -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zoopla_Automation_Framework]">
+  <test name="Zoopla_Automation_Test(failed)">
+    <classes>
+      <class name="com.zoopla.qa.test.PropertyDetailPageTest">
+        <methods>
+          <include name="isAgentLogoDisplayed"/>
+          <include name="isAgentPhoneNoDisplayed"/>
+          <include name="tearDown"/>
+          <include name="isAgentNameDisplayed"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.test.PropertyDetailPageTest -->
+      <class name="com.zoopla.qa.test.PropertySearchResultPageTest">
+        <methods>
+          <include name="getPropertyPriceListDescendingOrderTest"/>
+          <include name="selectFifthPropertyTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.test.PropertySearchResultPageTest -->
+      <class name="com.zoopla.qa.test.AgentPageTest">
+        <methods>
+          <include name="validateAgentNameIsCorrect"/>
+          <include name="validateAgentPhoneNoIsCorrect"/>
+          <include name="teatDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zoopla.qa.test.AgentPageTest -->
+    </classes>
+  </test> <!-- Zoopla_Automation_Test(failed) -->
+</suite> <!-- Failed suite [Zoopla_Automation_Framework] -->
