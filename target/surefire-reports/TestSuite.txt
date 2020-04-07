@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 100.546 s <<< FAILURE! - in TestSuite
+setUp(com.zoopla.qa.test.PropertyDetailPageTest)  Time elapsed: 31.702 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="listing-results-price text-price" href="/for-sale/details/53982765?search_identifier=6323219902a84fc51cd97861178ef6ce"> is not clickable at point (649,641) because another element <img class=" lazy"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WKWIN5154091', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10004, moz:profile: C:\Users\pkshank\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4fceb91e-1ee3-4d1c-9fd7-2412e91427d8
+	at com.zoopla.qa.test.PropertyDetailPageTest.setUp(PropertyDetailPageTest.java:29)
+
+setUp(com.zoopla.qa.test.AgentPageTest)  Time elapsed: 54.219 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="listing-results-price text-price" href="/for-sale/details/53982765?search_identifier=6323219902a84fc51cd97861178ef6ce"> is not clickable at point (649,641) because another element <img class=" lazy"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WKWIN5154091', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 23148, moz:profile: C:\Users\pkshank\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efda0cc3-3bde-40d4-a7e0-a5f53ad050b6
+	at com.zoopla.qa.test.AgentPageTest.setUp(AgentPageTest.java:32)
+
+selectFifthPropertyTest(com.zoopla.qa.test.PropertySearchResultPageTest)  Time elapsed: 3.842 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="listing-results-price text-price" href="/for-sale/details/53982765?search_identifier=6323219902a84fc51cd97861178ef6ce"> is not clickable at point (649,641) because another element <img class=" lazy"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'WKWIN5154091', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 21748, moz:profile: C:\Users\pkshank\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cf3f1394-1ecf-4266-8036-de383eb40cb1
+	at com.zoopla.qa.test.PropertySearchResultPageTest.selectFifthPropertyTest(PropertySearchResultPageTest.java:46)
+

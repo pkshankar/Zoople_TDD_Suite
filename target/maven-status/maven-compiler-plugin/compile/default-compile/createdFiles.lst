@@ -1,0 +1,6 @@
+com\zoopla\qa\pages\PropertyDetailPage.class
+com\zoopla\qa\testdata\TestData.class
+com\zoopla\qa\pages\AgentPage.class
+com\zoopla\qa\pages\PropertySearchResultPage.class
+com\zoopla\qa\testutil\TestUtil.class
+com\zoopla\qa\pages\BasePage.class
